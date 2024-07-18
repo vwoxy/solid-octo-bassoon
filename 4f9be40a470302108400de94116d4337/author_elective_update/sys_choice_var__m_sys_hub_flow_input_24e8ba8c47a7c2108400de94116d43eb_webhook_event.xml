@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="webhook_event" table="var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>webhook_event</element>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package display_value="Jira Integration" source="x_823495_jira_in_0">4f9be40a470302108400de94116d4337</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- None --</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value/>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:issue_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue Updated</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:issue_updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:issue_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comment Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>comment_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comment Updated</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>comment_updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comment Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>comment_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worklog Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>worklog_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worklog Updated</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>worklog_updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worklog Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>worklog_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attachment Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>attachment_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attachment Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>attachment_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>project_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Updated</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>project_updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Project Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>project_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Created</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_created</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Updated</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_updated</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Deleted</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_deleted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Released</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_released</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Unreleased</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_unreleased</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>webhook_event</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Version Moved</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_24e8ba8c47a7c2108400de94116d43eb</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>joseph.miller</sys_created_by>
+            <sys_created_on>2024-07-17 17:35:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>joseph.miller</sys_updated_by>
+            <sys_updated_on>2024-07-17 17:35:13</sys_updated_on>
+            <value>jira:version_moved</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
