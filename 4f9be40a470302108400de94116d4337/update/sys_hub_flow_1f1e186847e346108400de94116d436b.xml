@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2975000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=69975000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>process_jira_task</internal_name>
-        <label_cache>[{"name":"subflow.issue","label":"Input➛Issue","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD5b1e1868b3e34610d4aa3e43a03dde76","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ba173f61-d29a-4261-8de1-4b7d4d89c1e4","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.payload","label":"Input➛Payload","reference":"","reference_display":"","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"151ef6f2-4fae-4959-ac6e-e63608d178ae":["payload"],"4e2814f6-ce82-4609-b8c6-af2231f76b5a":["payload"],"fc76537f-a3e2-43a6-ba22-9cf09479468b":["log_message"]}},{"name":"subflow.project","label":"Input➛Project","reference":"","reference_display":"","type":"object","base_type":"object","usedInstances":{"0aae1172-67e3-4ed1-9262-90f0de3af81e":["log_message"]}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{},"attributes":{}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.id","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d12861c1-1a98-4dc6-9f32-811f0f0f5afe":["condition"],"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0":["conditions"],"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0":["conditions"]},"attributes":{}},{"name":"subflow.issue.id","label":"Input➛Issue➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["correlation_id"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["correlation_id"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["correlation_id"],"bb5950d3-0adf-4985-9039-72e1dfcfb0dd":["conditions"],"6605d0c7-e1fd-4890-b1ae-8cc70759e1aa":["conditions"]},"attributes":{"uiUniqueId":"6ed38fb3-443c-44fe-824f-bfe0f3e8c09f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.summary","label":"Input➛Issue➛Summary","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["short_description"]},"attributes":{"uiUniqueId":"a65412e9-23bf-42ba-9de4-ba2d49627aa2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.description","label":"Input➛Issue➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiUniqueId":"8f51b4d6-7e39-4ebf-bbf4-d97fd13ae56f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.fields.issuetype.name","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛fields➛issuetype➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"cb5f4c96-e7fc-4c51-a714-aee6d0c4c326":["condition"]},"attributes":{}},{"name":"subflow.project.id","label":"Input➛Project➛ID","reference":"","reference_display":"","type":"number","base_type":"number","column_name":"","usedInstances":{"501ccfb1-cea5-466c-b5ed-3e15a5e14330":["conditions"]},"attributes":{"uiUniqueId":"4186ad95-799d-45c9-9a54-93760b7012b9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"501ccfb1-cea5-466c-b5ed-3e15a5e14330.Record","label":"4 - Look Up Record➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["sub_tree_root","parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0.Record","label":"8 - Look Up Record➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["story"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0.Record","label":"12 - Look Up Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Count","label":"15 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"81a89646-7b50-4f19-8eb9-c32ed9c004ba":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Records","label":"15 - Look Up Records➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","usedInstances":{"ae64b942-74e4-49fe-9154-879329b029cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68.record","label":"5 - Create or Update Record➛Project Task Record","reference":"pm_project_task","reference_display":"Project Task","type":"reference","base_type":"reference","usedInstances":{"cc01986a-541e-4735-8ba1-c60dd104c2de":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"635d70fe-f75f-4b20-98c0-7cb5e9fb7754.record","label":"9 - Create or Update Record➛Scrum Task Record","reference":"rm_scrum_task","reference_display":"Scrum Task","type":"reference","base_type":"reference","usedInstances":{"b10315a5-e42a-456d-852f-e34f81c40aa1":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f.record","label":"13 - Create or Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"cf5e7cbe-d2cc-44b9-8428-2f635156a05e":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item.sys_id","label":"17 - For Each➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"flow_variable.created_task.sys_id","label":"Flow Variables➛Created Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item","label":"17 - For Each➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"f8f94b60-aa33-4b6f-a759-58a3bbab21fb":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <label_cache>[{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item","label":"16 - For Each➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"f8f94b60-aa33-4b6f-a759-58a3bbab21fb":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.created_task.sys_id","label":"Flow Variables➛Created Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item.sys_id","label":"16 - For Each➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f.record","label":"12 - Create or Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"cf5e7cbe-d2cc-44b9-8428-2f635156a05e":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"635d70fe-f75f-4b20-98c0-7cb5e9fb7754.record","label":"8 - Create or Update Record➛Scrum Task Record","reference":"rm_scrum_task","reference_display":"Scrum Task","type":"reference","base_type":"reference","usedInstances":{"b10315a5-e42a-456d-852f-e34f81c40aa1":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68.record","label":"4 - Create or Update Record➛Project Task Record","reference":"pm_project_task","reference_display":"Project Task","type":"reference","base_type":"reference","usedInstances":{"cc01986a-541e-4735-8ba1-c60dd104c2de":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Records","label":"14 - Look Up Records➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","usedInstances":{"ae64b942-74e4-49fe-9154-879329b029cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Count","label":"14 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"81a89646-7b50-4f19-8eb9-c32ed9c004ba":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0.Record","label":"11 - Look Up Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0.Record","label":"7 - Look Up Record➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["story"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"501ccfb1-cea5-466c-b5ed-3e15a5e14330.Record","label":"3 - Look Up Record➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["sub_tree_root","parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.project.id","label":"Input➛Project➛ID","reference":"","reference_display":"","type":"number","base_type":"number","column_name":"","usedInstances":{"501ccfb1-cea5-466c-b5ed-3e15a5e14330":["conditions"]},"attributes":{"uiUniqueId":"4186ad95-799d-45c9-9a54-93760b7012b9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.fields.issuetype.name","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛fields➛issuetype➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"cb5f4c96-e7fc-4c51-a714-aee6d0c4c326":["condition"]},"attributes":{}},{"name":"subflow.issue.description","label":"Input➛Issue➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiUniqueId":"8f51b4d6-7e39-4ebf-bbf4-d97fd13ae56f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.summary","label":"Input➛Issue➛Summary","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["short_description"]},"attributes":{"uiUniqueId":"a65412e9-23bf-42ba-9de4-ba2d49627aa2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.id","label":"Input➛Issue➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["correlation_id"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["correlation_id"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["correlation_id"],"bb5950d3-0adf-4985-9039-72e1dfcfb0dd":["conditions"],"6605d0c7-e1fd-4890-b1ae-8cc70759e1aa":["conditions"]},"attributes":{"uiUniqueId":"6ed38fb3-443c-44fe-824f-bfe0f3e8c09f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.id","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d12861c1-1a98-4dc6-9f32-811f0f0f5afe":["condition"],"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0":["conditions"],"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0":["conditions"]},"attributes":{}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{},"attributes":{}},{"name":"subflow.project","label":"Input➛Project","reference":"","reference_display":"","type":"object","base_type":"object","usedInstances":{"0aae1172-67e3-4ed1-9262-90f0de3af81e":["log_message"]}},{"name":"subflow.payload","label":"Input➛Payload","reference":"","reference_display":"","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"151ef6f2-4fae-4959-ac6e-e63608d178ae":["payload"],"4e2814f6-ce82-4609-b8c6-af2231f76b5a":["payload"],"fc76537f-a3e2-43a6-ba22-9cf09479468b":["log_message"]}},{"name":"subflow.issue","label":"Input➛Issue","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD5b1e1868b3e34610d4aa3e43a03dde76","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ba173f61-d29a-4261-8de1-4b7d4d89c1e4","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>bb032820472746108400de94116d4374</master_snapshot>
         <name>Process Jira Task</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f1e186847e346108400de94116d436b</sys_id>
-        <sys_mod_count>103</sys_mod_count>
+        <sys_mod_count>106</sys_mod_count>
         <sys_name>Process Jira Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="Jira Integration" source="x_823495_jira_in_0">4f9be40a470302108400de94116d4337</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name>sys_hub_flow_1f1e186847e346108400de94116d436b</sys_update_name>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1f1e186847e346108400de94116d436b"/>
@@ -76,7 +76,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b1e186847e346108400de94116d4375</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -84,7 +84,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -183,7 +183,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5f1e186847e346108400de94116d4385</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -191,7 +191,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -290,7 +290,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>131e186847e346108400de94116d4385</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -298,7 +298,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -397,7 +397,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b1e186847e346108400de94116d4384</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -405,7 +405,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -504,7 +504,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>971e186847e346108400de94116d4385</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -512,7 +512,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -779,7 +779,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>171e186847e346108400de94116d4377</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -787,7 +787,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -886,7 +886,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db1e186847e346108400de94116d4377</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -894,7 +894,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -993,7 +993,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f1e186847e346108400de94116d4376</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1001,7 +1001,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -1258,7 +1258,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ef1e186847e346108400de94116d438c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=1f1e186847e346108400de94116d436b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f1e186847e346108400de94116d436b"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=1f1e186847e346108400de94116d436b^sys_idNOT IN204964e4472746108400de94116d4392,40d3a860472746108400de94116d43b6,48e624a4472746108400de94116d4321,4c566864472746108400de94116d4378,55d7e028472746108400de94116d434b,6b1768a4472746108400de94116d43c1,80c46420472746108400de94116d4394,87456024472746108400de94116d435e,dec52c24472746108400de94116d43eb,ff1e186847e346108400de94116d43e3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1f1e186847e346108400de94116d436b^sys_idNOT IN204964e4472746108400de94116d4392,40d3a860472746108400de94116d43b6,48e624a4472746108400de94116d4321,4c566864472746108400de94116d4378,55d7e028472746108400de94116d434b,6b1768a4472746108400de94116d43c1,80c46420472746108400de94116d4394,87456024472746108400de94116d435e,dec52c24472746108400de94116d43eb"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1269,16 +1269,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>19</order>
+        <order>18</order>
         <parent_ui_id>47249ca4-ce6d-4362-a4f0-ccf54203d8ec</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:24:39</sys_created_on>
         <sys_id>204964e4472746108400de94116d4392</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>f8f94b60-aa33-4b6f-a759-58a3bbab21fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=204964e4472746108400de94116d4392"/>
@@ -1307,16 +1307,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>2</order>
+        <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:00:52</sys_created_on>
         <sys_id>40d3a860472746108400de94116d43b6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <ui_id>4e2814f6-ce82-4609-b8c6-af2231f76b5a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=40d3a860472746108400de94116d43b6"/>
@@ -1345,16 +1345,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>12</order>
+        <order>11</order>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:14:15</sys_created_on>
         <sys_id>48e624a4472746108400de94116d4321</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=48e624a4472746108400de94116d4321"/>
@@ -1409,16 +1409,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>8</order>
+        <order>7</order>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:11:48</sys_created_on>
         <sys_id>4c566864472746108400de94116d4378</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4c566864472746108400de94116d4378"/>
@@ -1473,16 +1473,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>15</order>
+        <order>14</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:18:26</sys_created_on>
         <sys_id>55d7e028472746108400de94116d434b</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>bb5950d3-0adf-4985-9039-72e1dfcfb0dd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=55d7e028472746108400de94116d434b"/>
@@ -1589,16 +1589,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>13</order>
+        <order>12</order>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:15:19</sys_created_on>
         <sys_id>6b1768a4472746108400de94116d43c1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>541bcbf0-64c8-4f65-a3e1-d9e2dd98275f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6b1768a4472746108400de94116d43c1"/>
@@ -1653,16 +1653,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>5</order>
+        <order>4</order>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:04:58</sys_created_on>
         <sys_id>80c46420472746108400de94116d4394</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <ui_id>7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=80c46420472746108400de94116d4394"/>
@@ -1717,16 +1717,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:07:21</sys_created_on>
         <sys_id>87456024472746108400de94116d435e</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>635d70fe-f75f-4b20-98c0-7cb5e9fb7754</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=87456024472746108400de94116d435e"/>
@@ -1781,16 +1781,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
         <generation_source/>
-        <order>4</order>
+        <order>3</order>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:09:30</sys_created_on>
         <sys_id>dec52c24472746108400de94116d43eb</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
+        <sys_updated_by>joseph.miller</sys_updated_by>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <ui_id>501ccfb1-cea5-466c-b5ed-3e15a5e14330</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=dec52c24472746108400de94116d43eb"/>
@@ -1835,57 +1835,6 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dec52c24472746108400de94116d43eb"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=dec52c24472746108400de94116d43eb"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
-        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Process Jira Task">1f1e186847e346108400de94116d436b</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:36:00</sys_created_on>
-        <sys_id>ff1e186847e346108400de94116d43e3</sys_id>
-        <sys_mod_count>14</sys_mod_count>
-        <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:26:37</sys_updated_on>
-        <ui_id>fc76537f-a3e2-43a6-ba22-9cf09479468b</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=ff1e186847e346108400de94116d43e3"/>
-    <sys_element_mapping action="delete_multiple" query="id=ff1e186847e346108400de94116d43e3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>log_message</field>
-        <id>ff1e186847e346108400de94116d43e3</id>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:36:00</sys_created_on>
-        <sys_id>371e186847e346108400de94116d43e6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 19:36:00</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
-        <value>{{subflow.payload}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=ff1e186847e346108400de94116d43e3^sys_idNOT IN3b1e186847e346108400de94116d43e5"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>log_message</input_name>
-        <instance>ff1e186847e346108400de94116d43e3</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"log_message":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn JSON.stringify(fd_data.subflow_inputs);"}}</script>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:36:00</sys_created_on>
-        <sys_id>3b1e186847e346108400de94116d43e5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 19:36:00</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff1e186847e346108400de94116d43e3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1f1e186847e346108400de94116d436b"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=1f1e186847e346108400de94116d436b^sys_idNOT IN06082028472746108400de94116d43ad,3058ec28472746108400de94116d43ab,45f8e024472746108400de94116d43a0,74d6e824472746108400de94116d4357,9515a8a0472746108400de94116d43f7,98e8e068472746108400de94116d43fa,d884a8a0472746108400de94116d43c2,e50920a8472746108400de94116d435a,fb58a4e4472746108400de94116d4397"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -1904,7 +1853,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>16</order>
+        <order>15</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1912,10 +1861,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:19:18</sys_created_on>
         <sys_id>06082028472746108400de94116d43ad</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>81a89646-7b50-4f19-8eb9-c32ed9c004ba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1979,7 +1928,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>17</order>
+        <order>16</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>81a89646-7b50-4f19-8eb9-c32ed9c004ba</parent_ui_id>
@@ -1987,10 +1936,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:20:35</sys_created_on>
         <sys_id>3058ec28472746108400de94116d43ab</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>ae64b942-74e4-49fe-9154-879329b029cd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2028,7 +1977,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>10</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
@@ -2036,10 +1985,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:23:20</sys_created_on>
         <sys_id>45f8e024472746108400de94116d43a0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>b10315a5-e42a-456d-852f-e34f81c40aa1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2075,7 +2024,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>11</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2083,10 +2032,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:14:01</sys_created_on>
         <sys_id>74d6e824472746108400de94116d4357</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>ac54eabf-4562-4380-8329-e157d724642c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2111,7 +2060,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>7</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2119,10 +2068,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:06:26</sys_created_on>
         <sys_id>9515a8a0472746108400de94116d43f7</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2186,7 +2135,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>6</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
@@ -2194,10 +2143,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:23:01</sys_created_on>
         <sys_id>98e8e068472746108400de94116d43fa</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>cc01986a-541e-4735-8ba1-c60dd104c2de</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2234,7 +2183,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2242,10 +2191,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:03:54</sys_created_on>
         <sys_id>d884a8a0472746108400de94116d43c2</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
         <ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2309,7 +2258,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>14</order>
+        <order>13</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
@@ -2317,10 +2266,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:23:38</sys_created_on>
         <sys_id>e50920a8472746108400de94116d435a</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>cf5e7cbe-d2cc-44b9-8428-2f635156a05e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2357,7 +2306,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>18</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>ae64b942-74e4-49fe-9154-879329b029cd</parent_ui_id>
@@ -2365,10 +2314,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:20:47</sys_created_on>
         <sys_id>fb58a4e4472746108400de94116d4397</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:45</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:27</sys_updated_on>
         <ui_id>47249ca4-ce6d-4362-a4f0-ccf54203d8ec</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3191,7 +3140,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>process_jira_task</internal_name>
-        <label_cache>[{"name":"subflow.issue","label":"Input➛Issue","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD5b1e1868b3e34610d4aa3e43a03dde76","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ba173f61-d29a-4261-8de1-4b7d4d89c1e4","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.payload","label":"Input➛Payload","reference":"","reference_display":"","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"151ef6f2-4fae-4959-ac6e-e63608d178ae":["payload"],"4e2814f6-ce82-4609-b8c6-af2231f76b5a":["payload"],"fc76537f-a3e2-43a6-ba22-9cf09479468b":["log_message"]}},{"name":"subflow.project","label":"Input➛Project","reference":"","reference_display":"","type":"object","base_type":"object","usedInstances":{"0aae1172-67e3-4ed1-9262-90f0de3af81e":["log_message"]}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{},"attributes":{}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.id","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d12861c1-1a98-4dc6-9f32-811f0f0f5afe":["condition"],"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0":["conditions"],"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0":["conditions"]},"attributes":{}},{"name":"subflow.issue.id","label":"Input➛Issue➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["correlation_id"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["correlation_id"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["correlation_id"],"bb5950d3-0adf-4985-9039-72e1dfcfb0dd":["conditions"],"6605d0c7-e1fd-4890-b1ae-8cc70759e1aa":["conditions"]},"attributes":{"uiUniqueId":"6ed38fb3-443c-44fe-824f-bfe0f3e8c09f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.summary","label":"Input➛Issue➛Summary","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["short_description"]},"attributes":{"uiUniqueId":"a65412e9-23bf-42ba-9de4-ba2d49627aa2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.description","label":"Input➛Issue➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiUniqueId":"8f51b4d6-7e39-4ebf-bbf4-d97fd13ae56f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.fields.issuetype.name","label":"2 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛fields➛issuetype➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"cb5f4c96-e7fc-4c51-a714-aee6d0c4c326":["condition"]},"attributes":{}},{"name":"subflow.project.id","label":"Input➛Project➛ID","reference":"","reference_display":"","type":"number","base_type":"number","column_name":"","usedInstances":{"501ccfb1-cea5-466c-b5ed-3e15a5e14330":["conditions"]},"attributes":{"uiUniqueId":"4186ad95-799d-45c9-9a54-93760b7012b9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"501ccfb1-cea5-466c-b5ed-3e15a5e14330.Record","label":"4 - Look Up Record➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["sub_tree_root","parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0.Record","label":"8 - Look Up Record➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["story"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0.Record","label":"12 - Look Up Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Count","label":"15 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"81a89646-7b50-4f19-8eb9-c32ed9c004ba":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Records","label":"15 - Look Up Records➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","usedInstances":{"ae64b942-74e4-49fe-9154-879329b029cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68.record","label":"5 - Create or Update Record➛Project Task Record","reference":"pm_project_task","reference_display":"Project Task","type":"reference","base_type":"reference","usedInstances":{"cc01986a-541e-4735-8ba1-c60dd104c2de":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"635d70fe-f75f-4b20-98c0-7cb5e9fb7754.record","label":"9 - Create or Update Record➛Scrum Task Record","reference":"rm_scrum_task","reference_display":"Scrum Task","type":"reference","base_type":"reference","usedInstances":{"b10315a5-e42a-456d-852f-e34f81c40aa1":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f.record","label":"13 - Create or Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"cf5e7cbe-d2cc-44b9-8428-2f635156a05e":["created_task-0"]},"attributes":{"uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"document_id"}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item.sys_id","label":"17 - For Each➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"flow_variable.created_task.sys_id","label":"Flow Variables➛Created Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item","label":"17 - For Each➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"f8f94b60-aa33-4b6f-a759-58a3bbab21fb":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <label_cache>[{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item","label":"16 - For Each➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"f8f94b60-aa33-4b6f-a759-58a3bbab21fb":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"flow_variable.created_task.sys_id","label":"Flow Variables➛Created Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"ae64b942-74e4-49fe-9154-879329b029cd.item.sys_id","label":"16 - For Each➛Task Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id","usedInstances":{"47249ca4-ce6d-4362-a4f0-ccf54203d8ec":["condition"]}},{"name":"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f.record","label":"12 - Create or Update Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"cf5e7cbe-d2cc-44b9-8428-2f635156a05e":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"635d70fe-f75f-4b20-98c0-7cb5e9fb7754.record","label":"8 - Create or Update Record➛Scrum Task Record","reference":"rm_scrum_task","reference_display":"Scrum Task","type":"reference","base_type":"reference","usedInstances":{"b10315a5-e42a-456d-852f-e34f81c40aa1":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68.record","label":"4 - Create or Update Record➛Project Task Record","reference":"pm_project_task","reference_display":"Project Task","type":"reference","base_type":"reference","usedInstances":{"cc01986a-541e-4735-8ba1-c60dd104c2de":["created_task-0"]},"attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Records","label":"14 - Look Up Records➛Task Records","reference":"task","reference_display":"Task","type":"records","base_type":"records","usedInstances":{"ae64b942-74e4-49fe-9154-879329b029cd":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bb5950d3-0adf-4985-9039-72e1dfcfb0dd.Count","label":"14 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","usedInstances":{"81a89646-7b50-4f19-8eb9-c32ed9c004ba":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0.Record","label":"11 - Look Up Record➛Task Record","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0.Record","label":"7 - Look Up Record➛Story Record","reference":"rm_story","reference_display":"Story","type":"reference","base_type":"reference","usedInstances":{"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["story"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"501ccfb1-cea5-466c-b5ed-3e15a5e14330.Record","label":"3 - Look Up Record➛Project Record","reference":"pm_project","reference_display":"Project","type":"reference","base_type":"reference","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["sub_tree_root","parent"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.project.id","label":"Input➛Project➛ID","reference":"","reference_display":"","type":"number","base_type":"number","column_name":"","usedInstances":{"501ccfb1-cea5-466c-b5ed-3e15a5e14330":["conditions"]},"attributes":{"uiUniqueId":"4186ad95-799d-45c9-9a54-93760b7012b9","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.fields.issuetype.name","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛fields➛issuetype➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"cb5f4c96-e7fc-4c51-a714-aee6d0c4c326":["condition"]},"attributes":{}},{"name":"subflow.issue.description","label":"Input➛Issue➛Description","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiUniqueId":"8f51b4d6-7e39-4ebf-bbf4-d97fd13ae56f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.summary","label":"Input➛Issue➛Summary","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["short_description"]},"attributes":{"uiUniqueId":"a65412e9-23bf-42ba-9de4-ba2d49627aa2","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.issue.id","label":"Input➛Issue➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["correlation_id"],"635d70fe-f75f-4b20-98c0-7cb5e9fb7754":["correlation_id"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["correlation_id"],"bb5950d3-0adf-4985-9039-72e1dfcfb0dd":["conditions"],"6605d0c7-e1fd-4890-b1ae-8cc70759e1aa":["conditions"]},"attributes":{"uiUniqueId":"6ed38fb3-443c-44fe-824f-bfe0f3e8c09f","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent.id","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent➛id","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"d12861c1-1a98-4dc6-9f32-811f0f0f5afe":["condition"],"aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0":["conditions"],"1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0":["conditions"]},"attributes":{}},{"name":"4e2814f6-ce82-4609-b8c6-af2231f76b5a.parsed_payload.issue.fields.parent","label":"1 - Parse Jira Task Payload➛Parsed Payload➛issue➛fields➛parent","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{},"attributes":{}},{"name":"subflow.project","label":"Input➛Project","reference":"","reference_display":"","type":"object","base_type":"object","usedInstances":{"0aae1172-67e3-4ed1-9262-90f0de3af81e":["log_message"]}},{"name":"subflow.payload","label":"Input➛Payload","reference":"","reference_display":"","type":"string_full_utf8","base_type":"string_full_utf8","usedInstances":{"151ef6f2-4fae-4959-ac6e-e63608d178ae":["payload"],"4e2814f6-ce82-4609-b8c6-af2231f76b5a":["payload"],"fc76537f-a3e2-43a6-ba22-9cf09479468b":["log_message"]}},{"name":"subflow.issue","label":"Input➛Issue","reference":"","reference_display":"","type":"object","base_type":"object","column_name":"","usedInstances":{"7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68":["short_description"],"541bcbf0-64c8-4f65-a3e1-d9e2dd98275f":["description"]},"attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FD5b1e1868b3e34610d4aa3e43a03dde76","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"ba173f61-d29a-4261-8de1-4b7d4d89c1e4","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
         <name>Process Jira Task</name>
         <natlang/>
@@ -3208,7 +3157,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bb032820472746108400de94116d4374</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3216,7 +3165,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=bb032820472746108400de94116d4374"/>
@@ -3249,7 +3198,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c132820472746108400de94116d4376</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3257,7 +3206,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -3440,7 +3389,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cc132820472746108400de94116d4377</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3448,7 +3397,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_collection</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -3547,7 +3496,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>04132820472746108400de94116d4379</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3555,7 +3504,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -3738,7 +3687,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>40132820472746108400de94116d437a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -3746,7 +3695,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -4013,7 +3962,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>88132820472746108400de94116d4379</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4021,7 +3970,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -4120,7 +4069,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c4132820472746108400de94116d4377</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4128,7 +4077,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -4227,7 +4176,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4c132820472746108400de94116d4378</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4235,7 +4184,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -4334,7 +4283,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>84132820472746108400de94116d4378</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -4342,7 +4291,7 @@
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_update_name/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
         <type>complex_object_schema</type>
     </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
@@ -4431,7 +4380,7 @@
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d8132820472746108400de94116d43f1"/>
     <sys_hub_flow_output action="delete_multiple" query="model=bb032820472746108400de94116d4374"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb032820472746108400de94116d4374"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=bb032820472746108400de94116d4374^sys_idNOT IN3a7960e8472746108400de94116d43c1,3e7960e8472746108400de94116d43ca,4b7960e8472746108400de94116d43da,4f7960e8472746108400de94116d43ed,7a7960e8472746108400de94116d43d1,837960e8472746108400de94116d43ff,c77960e8472746108400de94116d43f7,e0136820472746108400de94116d432d,f67960e8472746108400de94116d43b8,fa7960e8472746108400de94116d43ad"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=bb032820472746108400de94116d4374^sys_idNOT IN3a7960e8472746108400de94116d43c1,3e7960e8472746108400de94116d43ca,4b7960e8472746108400de94116d43da,4f7960e8472746108400de94116d43ed,7a7960e8472746108400de94116d43d1,837960e8472746108400de94116d43ff,c77960e8472746108400de94116d43f7,f67960e8472746108400de94116d43b8,fa7960e8472746108400de94116d43ad"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -4442,16 +4391,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>5</order>
+        <order>4</order>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:38</sys_created_on>
         <sys_id>3a7960e8472746108400de94116d43c1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>7a8ddff3-b4ea-49c2-9fc2-c4fb5249bb68</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3a7960e8472746108400de94116d43c1"/>
@@ -4506,16 +4455,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>8</order>
+        <order>7</order>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:38</sys_created_on>
         <sys_id>3e7960e8472746108400de94116d43ca</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>aa6b8a89-d9cf-45d7-8616-4f9a2752ccb0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e7960e8472746108400de94116d43ca"/>
@@ -4570,16 +4519,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>12</order>
+        <order>11</order>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>4b7960e8472746108400de94116d43da</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>1174b766-5557-4ab2-b2cf-3b0cf2c0a0d0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4b7960e8472746108400de94116d43da"/>
@@ -4634,16 +4583,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>13</order>
+        <order>12</order>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>4f7960e8472746108400de94116d43ed</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>541bcbf0-64c8-4f65-a3e1-d9e2dd98275f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4f7960e8472746108400de94116d43ed"/>
@@ -4698,16 +4647,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>9</order>
+        <order>8</order>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:38</sys_created_on>
         <sys_id>7a7960e8472746108400de94116d43d1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>635d70fe-f75f-4b20-98c0-7cb5e9fb7754</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7a7960e8472746108400de94116d43d1"/>
@@ -4762,16 +4711,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>19</order>
+        <order>18</order>
         <parent_ui_id>47249ca4-ce6d-4362-a4f0-ccf54203d8ec</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>837960e8472746108400de94116d43ff</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>f8f94b60-aa33-4b6f-a759-58a3bbab21fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=837960e8472746108400de94116d43ff"/>
@@ -4800,16 +4749,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>15</order>
+        <order>14</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>c77960e8472746108400de94116d43f7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>bb5950d3-0adf-4985-9039-72e1dfcfb0dd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c77960e8472746108400de94116d43f7"/>
@@ -4909,57 +4858,6 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
-        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
-        <attributes/>
-        <comment/>
-        <display_text/>
-        <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
-        <generation_source/>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:57:38</sys_created_on>
-        <sys_id>e0136820472746108400de94116d432d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
-        <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
-        <ui_id>fc76537f-a3e2-43a6-ba22-9cf09479468b</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=e0136820472746108400de94116d432d"/>
-    <sys_element_mapping action="delete_multiple" query="id=e0136820472746108400de94116d432d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>log_message</field>
-        <id>e0136820472746108400de94116d432d</id>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:57:38</sys_created_on>
-        <sys_id>e8136820472746108400de94116d4347</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 19:57:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
-        <value>{{subflow.payload}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=e0136820472746108400de94116d432d^sys_idNOT IN60136820472746108400de94116d432e"/>
-    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <input_name>log_message</input_name>
-        <instance>e0136820472746108400de94116d432d</instance>
-        <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"log_message":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\nreturn JSON.stringify(fd_data.subflow_inputs);"}}</script>
-        <sys_created_by>joseph.miller</sys_created_by>
-        <sys_created_on>2024-07-18 19:57:38</sys_created_on>
-        <sys_id>60136820472746108400de94116d432e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 19:57:38</sys_updated_on>
-    </sys_hub_input_scripts>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e0136820472746108400de94116d432d"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <attributes/>
@@ -4967,16 +4865,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>4</order>
+        <order>3</order>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:38</sys_created_on>
         <sys_id>f67960e8472746108400de94116d43b8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>501ccfb1-cea5-466c-b5ed-3e15a5e14330</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f67960e8472746108400de94116d43b8"/>
@@ -5031,16 +4929,16 @@
         <display_text/>
         <flow display_value="Process Jira Task">bb032820472746108400de94116d4374</flow>
         <generation_source/>
-        <order>2</order>
+        <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:38</sys_created_on>
         <sys_id>fa7960e8472746108400de94116d43ad</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>4e2814f6-ce82-4609-b8c6-af2231f76b5a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fa7960e8472746108400de94116d43ad"/>
@@ -5077,7 +4975,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>6</order>
+        <order>5</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</parent_ui_id>
@@ -5085,10 +4983,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>0b79a0e8472746108400de94116d4304</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>cc01986a-541e-4735-8ba1-c60dd104c2de</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5125,7 +5023,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
-        <order>17</order>
+        <order>16</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>81a89646-7b50-4f19-8eb9-c32ed9c004ba</parent_ui_id>
@@ -5133,10 +5031,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>4779a0e8472746108400de94116d4316</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>ae64b942-74e4-49fe-9154-879329b029cd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5174,7 +5072,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>18</order>
+        <order>17</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>ae64b942-74e4-49fe-9154-879329b029cd</parent_ui_id>
@@ -5182,10 +5080,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>4f79a0e8472746108400de94116d4319</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>47249ca4-ce6d-4362-a4f0-ccf54203d8ec</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5223,7 +5121,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>16</order>
+        <order>15</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -5231,10 +5129,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>8779a0e8472746108400de94116d4313</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>81a89646-7b50-4f19-8eb9-c32ed9c004ba</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5272,7 +5170,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>14</order>
+        <order>13</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>ac54eabf-4562-4380-8329-e157d724642c</parent_ui_id>
@@ -5280,10 +5178,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>8b79a0e8472746108400de94116d4310</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:23</sys_updated_on>
         <ui_id>cf5e7cbe-d2cc-44b9-8428-2f635156a05e</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5320,7 +5218,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
-        <order>7</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -5328,10 +5226,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>8f79a0e8472746108400de94116d4307</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5369,7 +5267,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
-        <order>10</order>
+        <order>9</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id>cb5f4c96-e7fc-4c51-a714-aee6d0c4c326</parent_ui_id>
@@ -5377,10 +5275,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>c379a0e8472746108400de94116d430b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>b10315a5-e42a-456d-852f-e34f81c40aa1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5417,7 +5315,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -5425,10 +5323,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>cf79a0e8472746108400de94116d4300</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>d12861c1-1a98-4dc6-9f32-811f0f0f5afe</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5465,7 +5363,7 @@
         <generation_source/>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>11</order>
+        <order>10</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -5473,10 +5371,10 @@
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 20:25:39</sys_created_on>
         <sys_id>cf79a0e8472746108400de94116d430d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Jira Integration">4f9be40a470302108400de94116d4337</sys_scope>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
         <ui_id>ac54eabf-4562-4380-8329-e157d724642c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -5864,9 +5762,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>00132820472746108400de94116d43b6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>comment_deleted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5884,9 +5782,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>04132820472746108400de94116d43b9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>attachment_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5904,9 +5802,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>08132820472746108400de94116d43bc</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>project_deleted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5924,9 +5822,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0c132820472746108400de94116d43b2</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>jira:issue_updated</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5944,9 +5842,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0c132820472746108400de94116d43bf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_released</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5964,9 +5862,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>40132820472746108400de94116d43b0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value/>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -5984,9 +5882,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>40132820472746108400de94116d43ba</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>attachment_deleted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6004,9 +5902,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>44132820472746108400de94116d43bd</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6024,9 +5922,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>48132820472746108400de94116d43b3</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>jira:issue_deleted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6044,9 +5942,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>48132820472746108400de94116d43c0</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_unreleased</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6064,9 +5962,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4c132820472746108400de94116d43b6</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>worklog_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6084,9 +5982,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>80132820472746108400de94116d43be</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_updated</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6104,9 +6002,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>84132820472746108400de94116d43b4</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>comment_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6124,9 +6022,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>84132820472746108400de94116d43c1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_moved</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6144,9 +6042,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>88132820472746108400de94116d43b7</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>worklog_updated</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6164,9 +6062,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8c132820472746108400de94116d43ba</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>project_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6184,9 +6082,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c0132820472746108400de94116d43b5</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>comment_updated</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6204,9 +6102,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c4132820472746108400de94116d43b8</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>worklog_deleted</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6224,9 +6122,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c8132820472746108400de94116d43bb</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>project_updated</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6244,9 +6142,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cc132820472746108400de94116d43b1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:21</sys_updated_on>
             <value>jira:issue_created</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -6264,9 +6162,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>cc132820472746108400de94116d43be</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>joseph.miller</sys_updated_by>
-            <sys_updated_on>2024-07-18 20:25:40</sys_updated_on>
+            <sys_updated_on>2024-07-19 15:02:22</sys_updated_on>
             <value>jira:version_deleted</value>
         </sys_choice>
     </sys_choice>
@@ -6280,18 +6178,18 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1f1e186847e346108400de94116d436b"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1f1e186847e346108400de94116d436b^sys_idNOT INec136820472746108400de94116d4351"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"ec136820472746108400de94116d4351","name":"plan","plan_signature":null}}</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@49f65311</plan>
         <plan_id display_value="Process Jira Task">1f1e186847e346108400de94116d436b</plan_id>
-        <snapshot>b4b9a8e8472746108400de94116d43a0</snapshot>
+        <snapshot>bb032820472746108400de94116d4374</snapshot>
         <sys_created_by>joseph.miller</sys_created_by>
         <sys_created_on>2024-07-18 19:57:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec136820472746108400de94116d4351</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>joseph.miller</sys_updated_by>
-        <sys_updated_on>2024-07-18 20:25:44</sys_updated_on>
+        <sys_updated_on>2024-07-19 15:02:26</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
